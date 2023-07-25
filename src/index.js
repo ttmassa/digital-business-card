@@ -9,8 +9,8 @@ import App from './components/App'
             <Header />
 
             <Main />
-                <Title />
                 <Description />
+                <Qualifications />
                 <Links />
             <Main />
         <App />
