@@ -53,13 +53,26 @@ header > hr {
 
 main {
     flex: 1;
-    background-color: #fef8f8
+    background-color: #fef8f8;
+}
+
+.description {
+    color: #35393B;
 }
 
 .description--name {
-    color: #35393B;
-    font-weight: 700;
-    letter-spacing: 0.005em;
+    font-weight: 900;
+    letter-spacing: 0.008em;
     font-size: 32px;
-    margin: 0;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    
+}
+
+.description--job {
+    margin-left: 42px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 12px;
 }
