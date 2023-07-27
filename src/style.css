@@ -46,7 +46,7 @@ header > hr {
 .header--title {
     order: 2; 
     margin: 0;
-    color: rgb(212, 86, 86);
+    color: rgb(215, 77, 77);
     font-size: 60px;
     letter-spacing: -0.05em;
 }
@@ -54,6 +54,7 @@ header > hr {
 main {
     flex: 1;
     background-color: #fef8f8;
+    color: #35393B;
 }
 
 .description > * {
@@ -90,3 +91,19 @@ main {
     font-size: 14px;
     font-weight: 200;
 }
+
+a {
+    text-decoration: none;
+    color: #35393B;
+}
+
+.links--list > li {
+    border: 1px solid red;
+    line-height: 4rem;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.links--list {
+}
+
