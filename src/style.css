@@ -97,13 +97,28 @@ a {
     color: #35393B;
 }
 
+.links--list {
+    list-style: none;
+}
+
+.links--list > li > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.links--details-icons {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(215, 77, 77);
+}
+
 .links--list > li {
-    border: 1px solid red;
     line-height: 4rem;
     font-size: 16px;
     font-weight: 700;
 }
 
-.links--list {
-}
 
