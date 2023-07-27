@@ -56,15 +56,15 @@ main {
     background-color: #fef8f8;
 }
 
-.description {
+.description > * {
     color: #35393B;
+    margin-left: 41px;
 }
 
 .description--name {
     font-weight: 900;
     letter-spacing: 0.008em;
     font-size: 32px;
-    margin-left: 40px;
     margin-top: 40px;
     margin-bottom: 0;
     
@@ -75,4 +75,18 @@ main {
     font-size: 24px;
     font-weight: 600;
     margin-top: 12px;
+}
+
+.qualifications--list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.qualifications--list > li {
+    background-color: #E6E8EA;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    font-size: 14px;
+    font-weight: 200;
 }
