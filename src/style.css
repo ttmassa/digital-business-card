@@ -91,6 +91,9 @@ main {
     font-size: 14px;
     font-weight: 200;
 }
+article {
+    margin-top: 4.5rem;
+}
 
 a {
     text-decoration: none;
@@ -113,6 +116,25 @@ a {
     height: 40px;
     border-radius: 50%;
     background-color: rgb(215, 77, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links--mail-icon {
+    width: 25px;
+}
+
+.links--github-icon {
+    width: 45px;
+}
+
+.links--linkedin-icon {
+    width: 50px;
+}
+
+.links--maps-icon {
+    width: 26px;
 }
 
 .links--list > li {
