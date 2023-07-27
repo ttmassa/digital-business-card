@@ -100,11 +100,11 @@ main {
     background-color: #E6E8EA;
     border-radius: 0.25rem;
     padding: 0.25rem;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 200;
 }
 article {
-    margin-top: 4.5rem;
+    margin-top: 3rem;
 }
 
 a {
